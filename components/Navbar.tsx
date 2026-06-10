@@ -4,8 +4,8 @@ import { useState, useEffect } from 'react'
 import { Menu, X, Search, ChevronDown } from 'lucide-react'
 
 const navLinks = [
-  { label: 'Home', href: '#' },
-  { label: 'About', href: '#about' },
+  { label: 'Home', href: '/' },
+  { label: 'About', href: '/about' },
   { label: 'Gallery', href: '#gallery' },
   {
     label: 'Press',
@@ -88,7 +88,7 @@ export default function Navbar() {
               className="text-white font-bold tracking-wider text-base uppercase"
               style={{ fontFamily: 'var(--font-oswald), Oswald, sans-serif', letterSpacing: '0.12em' }}
             >
-              AMIT SHAH
+              AP Pathak
             </span>
           </a>
 
@@ -188,23 +188,23 @@ export default function Navbar() {
             </div>
             <nav className="flex flex-col p-4 gap-1">
               {[
-                'HOME',
-                'ABOUT',
-                'STALWART SAYS',
-                'PRESS',
-                'MY VIEWS',
-                'GALLERY',
-                'TIMELINE',
-                'CONTACT US',
+                { label: 'HOME', href: '/' },
+                { label: 'ABOUT', href: '/about' },
+                { label: 'STALWART SAYS', href: '#' },
+                { label: 'PRESS', href: '#press' },
+                { label: 'MY VIEWS', href: '#myview' },
+                { label: 'GALLERY', href: '#gallery' },
+                { label: 'TIMELINE', href: '#' },
+                { label: 'CONTACT US', href: '#contact' },
               ].map((item) => (
                 <a
-                  key={item}
-                  href="#"
+                  key={item.label}
+                  href={item.href}
                   onClick={() => setMenuOpen(false)}
                   className="py-3 border-b border-white/20 font-semibold text-base tracking-wide hover:text-white/70 transition-colors"
                   style={{ fontFamily: 'var(--font-oswald), Oswald, sans-serif' }}
                 >
-                  {item}
+                  {item.label}
                 </a>
               ))}
             </nav>
