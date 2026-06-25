@@ -1,0 +1,1139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ajay Prakash Pathak — Serving the Nation, Shaping Tomorrow</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Inter:wght@300;400;500;600;700&family=DM+Sans:wght@400;500;600&family=Noto+Serif+Devanagari:wght@600;700;900&family=Noto+Sans+Devanagari:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- LIGHTBOX -->
+  <div id="lightbox">
+    <div class="lightbox-content">
+      <button class="lightbox-close" id="lightboxClose"><i class="fas fa-times"></i></button>
+      <div class="lightbox-icon" id="lightboxIcon"><i class="fas fa-image"></i></div>
+      <div class="lightbox-title" id="lightboxTitle">Gallery Preview</div>
+      <div class="lightbox-sub" id="lightboxSub">Replace with your media content</div>
+    </div>
+  </div>
+
+  <!-- MOBILE MENU -->
+  <nav class="mobile-menu" id="mobileMenu">
+    <button class="mobile-close" id="mobileClose"><i class="fas fa-times"></i></button>
+    <a href="#hero" onclick="closeMobileMenu()">Home</a>
+    <a href="#about" onclick="closeMobileMenu()">About</a>
+    <a href="#initiatives" onclick="closeMobileMenu()">Initiatives</a>
+    <a href="#achievements" onclick="closeMobileMenu()">Achievements</a>
+    <a href="#news" onclick="closeMobileMenu()">News</a>
+    <a href="#gallery" onclick="closeMobileMenu()">Gallery</a>
+    <a href="#events" onclick="closeMobileMenu()">Events</a>
+    <a href="#testimonials" onclick="closeMobileMenu()">Testimonials</a>
+    <a href="#getinvolved" onclick="closeMobileMenu()">Get Involved</a>
+  </nav>
+
+  <!-- NAVBAR -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">
+        <div class="nav-logo-icon">AP</div>
+        <div>
+          <div class="nav-logo-text">Ajay Prakash Pathak</div>
+          <div class="nav-logo-sub">Member of Parliament · Uttar Pradesh</div>
+        </div>
+      </a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#initiatives">Initiatives</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#news">News</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#events">Events</a>
+        <a href="#getinvolved">Get Involved</a>
+      </div>
+      <div class="nav-cta">
+        <a href="#getinvolved" class="btn btn-primary"><i class="fas fa-handshake-angle"></i> Join the Movement</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg-pattern"></div>
+    <div class="hero-glow"></div>
+    <div class="hero-glow-2"></div>
+    <div class="hero-content">
+      <div>
+        <div class="hero-eyebrow reveal"><i class="fas fa-star"></i> <span lang="hi">सांसद · 2019 से अब तक</span></div>
+        <h1 class="hero-name reveal" lang="hi" style="transition-delay:0.1s">
+          Ajay Prakash
+          <span>Pathak</span>
+        </h1>
+        <p class="hero-tagline reveal" lang="hi" style="transition-delay:0.2s">"सेवा, समर्पण, समृद्धि — राष्ट्र
+          सर्वोपरि"</p>
+        <p class="hero-desc reveal" style="transition-delay:0.3s">
+          Dedicated to building a stronger, inclusive India — championing development, education, healthcare, and
+          opportunity for every citizen of Lucknow and beyond.
+        </p>
+        <div class="hero-btns reveal" style="transition-delay:0.4s">
+          <a href="#getinvolved" class="btn btn-primary"><i class="fas fa-users"></i> Join the Movement</a>
+          <a href="#getinvolved" class="btn btn-outline"><i class="fas fa-hands-helping"></i> Volunteer</a>
+          <a href="#getinvolved" class="btn btn-outline"><i class="fas fa-envelope"></i> Contact Us</a>
+        </div>
+        <div class="hero-stats reveal" style="transition-delay:0.5s">
+          <div class="hero-stat-item">
+            <div class="hero-stat-num">25+</div>
+            <div class="hero-stat-lbl">Years in Public Service</div>
+          </div>
+          <div class="hero-stat-item">
+            <div class="hero-stat-num">500+</div>
+            <div class="hero-stat-lbl">Development Projects</div>
+          </div>
+          <div class="hero-stat-item">
+            <div class="hero-stat-num">3M+</div>
+            <div class="hero-stat-lbl">Lives Impacted</div>
+          </div>
+          <div class="hero-stat-item">
+            <div class="hero-stat-num">48</div>
+            <div class="hero-stat-lbl">National Awards</div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-portrait-wrap">
+        <div class="hero-portrait-ring"></div>
+        <div class="hero-portrait-ring-2"></div>
+        <div class="hero-portrait">
+          <div class="hero-portrait-placeholder">
+            <div class="portrait-initials">
+              <div class="portrait-initials-text">RSC</div>
+            </div>
+            <div class="hero-portrait-person">
+              <div class="person-silhouette"></div>
+            </div>
+          </div>
+          <div class="hero-portrait-badge">Member of Parliament</div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-tricolor"><span></span><span></span><span></span></div>
+  </section>
+
+  <!-- TICKER -->
+  <div id="ticker">
+    <div class="ticker-inner container-wide">
+      <div class="ticker-label"><i class="fas fa-bullhorn"></i> Latest</div>
+      <div class="ticker-track" id="tickerTrack">
+        <span class="ticker-item">New 500-bed hospital inaugurated in Lucknow — Serving 2 lakh patients annually</span>
+        <span class="ticker-item">Smart City Project Phase-II launched — ₹1,200 Crore investment</span>
+        <span class="ticker-item">Rajendra Chauhan awarded Best MP Award 2024 by Lokmat National Awards</span>
+        <span class="ticker-item">10,000 students receive scholarships under Medhavi Yojna</span>
+        <span class="ticker-item">Grand Rally at Ramabai Ambedkar Maidan — July 15, 2025</span>
+        <span class="ticker-item">Women's Skill Development Centre inaugurated in 8 districts</span>
+        <span class="ticker-item">New 500-bed hospital inaugurated in Lucknow — Serving 2 lakh patients annually</span>
+        <span class="ticker-item">Smart City Project Phase-II launched — ₹1,200 Crore investment</span>
+        <span class="ticker-item">Rajendra Chauhan awarded Best MP Award 2024 by Lokmat National Awards</span>
+        <span class="ticker-item">10,000 students receive scholarships under Medhavi Yojna</span>
+        <span class="ticker-item">Grand Rally at Ramabai Ambedkar Maidan — July 15, 2025</span>
+        <span class="ticker-item">Women's Skill Development Centre inaugurated in 8 districts</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-portrait-card reveal-left">
+          <div class="about-portrait-img">
+            <div class="about-portrait-img-inner">
+              <div class="about-avatar">APP</div>
+            </div>
+          </div>
+          <div class="about-card-info">
+            <div class="about-card-name">ए० पी० पाठक</div>
+            <div class="about-card-role">ADG (अतिरिक्त सचिव स्तर), सड़क परिवहन एवं राजमार्ग मंत्रालय</div>
+            <div class="about-social">
+              <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+              <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+              <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+              <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="about-content reveal-right">
+          <div class="section-label">About the Leader</div>
+          <h2 class="section-title">भारत सरकार की सेवा में<br>समर्पित एक प्रशासक</h2>
+          <p class="bio-text">
+            ए० पी० पाठक भारत सरकार के 1984 बैच के वरिष्ठ अलाइड सर्विस अधिकारी हैं, जिन्होंने अपने सुदीर्घ प्रशासनिक
+            करियर में सड़क परिवहन, गृह, वित्त, सूचना एवं प्रसारण, ग्रामीण विकास तथा भारी उद्योग जैसे अत्यंत महत्वपूर्ण
+            मंत्रालयों में अपनी सेवाएं दी हैं। वर्तमान में वे सड़क परिवहन एवं राजमार्ग मंत्रालय में ADG (अतिरिक्त सचिव
+            स्तर) के पद पर कार्यरत हैं।
+          </p>
+          <p class="bio-text">
+            अपने करियर के दौरान उन्होंने माननीय मंत्रियों के OSD के रूप में नीति-निर्माण, कैडर प्रबंधन, मीडिया समन्वय
+            एवं संसदीय संपर्क में महत्वपूर्ण भूमिका निभाई है। RITES में अभियंता से लेकर अतिरिक्त सचिव स्तर तक की उनकी
+            यात्रा, अनुशासन, दूरदृष्टि और देशसेवा की प्रतिबद्धता का जीवंत प्रमाण है।
+          </p>
+
+          <div class="journey-timeline">
+            <div class="timeline-item">
+              <div class="timeline-dot">1</div>
+              <div class="timeline-body">
+                <div class="timeline-year">जनवरी 1983 – दिसंबर 1984</div>
+                <div class="timeline-title">प्रबंधक (सिविल), रेल मंत्रालय — RITES</div>
+                <div class="timeline-desc">रेल इंडिया तकनीकी एवं आर्थिक सेवाएं (RITES) में परिवहन एवं निर्माण क्षेत्र
+                  में भारतीय अंतर्राष्ट्रीय कंसल्टेंसी सेवाएं। भारत और विदेशों में सड़क एवं पुल परियोजनाओं की योजना,
+                  डिजाइन और पर्यवेक्षण।</div>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot">2</div>
+              <div class="timeline-body">
+                <div class="timeline-year">1995 – 1999</div>
+                <div class="timeline-title">निदेशक (प्रशासन एवं वित्त), सूचना एवं प्रसारण मंत्रालय</div>
+                <div class="timeline-desc">AIR एवं दूरदर्शन के सभी इंजीनियरिंग संवर्गों का कैडर प्रबंधन, ऑल इंडिया
+                  रेडियो का सामान्य प्रशासन एवं वित्तीय प्रबंधन, और संपूर्ण AIR नेटवर्क का मंत्रालय के साथ समन्वय।</div>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot">3</div>
+              <div class="timeline-body">
+                <div class="timeline-year">जनवरी 2000 – मई 2002</div>
+                <div class="timeline-title">OSD, भारी उद्योग एवं सार्वजनिक उपक्रम मंत्री</div>
+                <div class="timeline-desc">मंत्री कार्यालय का समग्र प्रशासन। मीडिया की योजना एवं समन्वय। विनिवेश नीति,
+                  सार्वजनिक उपक्रमों के पुनरुद्धार तथा ऑटो नीति के निर्माण में सहयोग।</div>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot">4</div>
+              <div class="timeline-body">
+                <div class="timeline-year">सितंबर 2006 – मार्च 2007</div>
+                <div class="timeline-title">निदेशक, ग्रामीण विकास मंत्रालय</div>
+                <div class="timeline-desc">देश में भूमि संसाधनों के संबंध में वाटर शेड क्षेत्र विकास कार्यक्रम और
+                  नीतियों का निर्माण एवं क्रियान्वयन।</div>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot">5</div>
+              <div class="timeline-body">
+                <div class="timeline-year">मार्च 2007 – मार्च 2009</div>
+                <div class="timeline-title">OSD, माननीय गृह मंत्री</div>
+                <div class="timeline-desc">लोकसभा, राज्यसभा एवं जनप्रतिनिधियों के साथ समन्वय। राज्य सरकारों व
+                  केंद्रशासित प्रदेशों से संपर्क। देश में आंतरिक सुरक्षा की स्थिति के आकलन में सहयोग।</div>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot">6</div>
+              <div class="timeline-body">
+                <div class="timeline-year">मार्च 2009 – दिसंबर 2010</div>
+                <div class="timeline-title">निदेशक (CBDT &amp; COFEPOSA), वित्त मंत्रालय</div>
+                <div class="timeline-desc">IRS (आयकर) अधिकारियों का कैडर प्रबंधन तथा COFEPOSA के अंतर्गत अपराधियों के
+                  मामलों की समीक्षा एवं प्रशासन।</div>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot">7</div>
+              <div class="timeline-body">
+                <div class="timeline-year">वर्तमान</div>
+                <div class="timeline-title">ADG (अतिरिक्त सचिव स्तर), सड़क परिवहन एवं राजमार्ग मंत्रालय</div>
+                <div class="timeline-desc">भारत के राष्ट्रीय राजमार्ग नेटवर्क के विकास एवं आधुनिकीकरण में नीतिगत एवं
+                  प्रशासनिक नेतृत्व, देश के परिवहन अवसंरचना को सुदृढ़ बनाने में सक्रिय भूमिका।</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="vision-box">
+            <div class="vision-box-title"><i class="fas fa-compass"></i> दृष्टि एवं मिशन</div>
+            <p>एक सशक्त, पारदर्शी और उत्तरदायी प्रशासन का निर्माण, जहाँ नीतियाँ जन-जन तक पहुँचें, संसाधनों का सदुपयोग हो
+              और भारत की विकास-यात्रा में हर नागरिक की भागीदारी सुनिश्चित हो। अनुभव, निष्ठा और सेवा-भाव के साथ
+              राष्ट्रनिर्माण में योगदान।</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INITIATIVES -->
+  <section id="initiatives">
+    <div class="container">
+      <div class="initiatives-header">
+        <div class="section-label">Key Initiatives</div>
+        <h2 class="section-title" lang="hi">हर क्षेत्र का विकास,<br>हर व्यक्ति की प्रगति</h2>
+        <p class="section-subtitle">Six pillars of transformative work, grounded in grassroots realities and driven by
+          data-backed governance.</p>
+      </div>
+      <div class="initiatives-grid">
+        <div class="initiative-card reveal">
+          <div class="initiative-icon ic-edu"><i class="fas fa-graduation-cap"></i></div>
+          <div class="initiative-title">Education &amp; Literacy</div>
+          <p class="initiative-desc">Establishing model schools, digital classrooms, and scholarship programs ensuring
+            no child is denied quality education due to economic hardship.</p>
+          <div class="initiative-stat"><i class="fas fa-circle-check"></i> 240 schools upgraded · 50,000+ scholarships
+            awarded</div>
+        </div>
+        <div class="initiative-card reveal" style="transition-delay:0.08s">
+          <div class="initiative-icon ic-health"><i class="fas fa-heart-pulse"></i></div>
+          <div class="initiative-title">Healthcare Access</div>
+          <p class="initiative-desc">Expanding primary health centres, mobile medical units, and telemedicine to bring
+            specialist care to rural doorsteps across the constituency.</p>
+          <div class="initiative-stat"><i class="fas fa-circle-check"></i> 3 hospitals built · 80 PHCs upgraded · 2L+
+            free treatments</div>
+        </div>
+        <div class="initiative-card reveal" style="transition-delay:0.16s">
+          <div class="initiative-icon ic-infra"><i class="fas fa-road"></i></div>
+          <div class="initiative-title">Infrastructure &amp; Smart City</div>
+          <p class="initiative-desc">Road connectivity, smart drainage, urban mobility upgrades, and affordable housing
+            — building the foundations of a modern, liveable Lucknow.</p>
+          <div class="initiative-stat"><i class="fas fa-circle-check"></i> 1,200 km roads · 28,000 smart streetlights
+            installed</div>
+        </div>
+        <div class="initiative-card reveal" style="transition-delay:0.24s">
+          <div class="initiative-icon ic-women"><i class="fas fa-venus"></i></div>
+          <div class="initiative-title">Women Empowerment</div>
+          <p class="initiative-desc">Self-help groups, legal aid cells, skilling centres, and entrepreneurship
+            incubators creating an ecosystem where women lead, earn, and thrive.</p>
+          <div class="initiative-stat"><i class="fas fa-circle-check"></i> 12,000 SHGs formed · 80,000 women skilled
+            &amp; employed</div>
+        </div>
+        <div class="initiative-card reveal" style="transition-delay:0.32s">
+          <div class="initiative-icon ic-youth"><i class="fas fa-bolt"></i></div>
+          <div class="initiative-title">Youth Development</div>
+          <p class="initiative-desc">Sports academies, entrepreneurship boot camps, coding institutes, and employment
+            drives turning young aspirations into lifelong opportunities.</p>
+          <div class="initiative-stat"><i class="fas fa-circle-check"></i> 15,000 youth placed in jobs · 60 sports
+            academies opened</div>
+        </div>
+        <div class="initiative-card reveal" style="transition-delay:0.4s">
+          <div class="initiative-icon ic-env"><i class="fas fa-leaf"></i></div>
+          <div class="initiative-title">Environmental Programs</div>
+          <p class="initiative-desc">Massive afforestation drives, solar energy rollouts, Gomti riverfront restoration,
+            and zero-waste initiatives for a greener, sustainable constituency.</p>
+          <div class="initiative-stat"><i class="fas fa-circle-check"></i> 5 lakh trees planted · 40 MW solar installed
+            · Gomti revived</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section id="achievements">
+    <div class="hero-bg-pattern"></div>
+    <div class="container">
+      <div class="achievements-header">
+        <div class="section-label">Achievements</div>
+        <h2 class="section-title" lang="hi">उपलब्धियाँ जो स्वयं<br>बोलती हैं</h2>
+        <p class="section-subtitle">Measured impact, not empty promises — every number represents a life touched, a
+          family lifted, a community transformed.</p>
+      </div>
+      <div class="counters-grid">
+        <div class="counter-card reveal">
+          <i class="fas fa-school counter-icon"></i>
+          <div class="counter-num" data-target="240">0</div>
+          <div class="counter-label">Schools Upgraded</div>
+        </div>
+        <div class="counter-card reveal" style="transition-delay:0.08s">
+          <i class="fas fa-users counter-icon"></i>
+          <div class="counter-num" data-target="3000000" data-suffix="M+">0</div>
+          <div class="counter-label">Lives Impacted</div>
+        </div>
+        <div class="counter-card reveal" style="transition-delay:0.16s">
+          <i class="fas fa-road counter-icon"></i>
+          <div class="counter-num" data-target="1200">0<span>km</span></div>
+          <div class="counter-label">Roads Constructed</div>
+        </div>
+        <div class="counter-card reveal" style="transition-delay:0.24s">
+          <i class="fas fa-award counter-icon"></i>
+          <div class="counter-num" data-target="48">0</div>
+          <div class="counter-label">National Awards</div>
+        </div>
+      </div>
+      <div class="milestones-grid">
+        <div class="milestone-card reveal">
+          <div class="milestone-icon-wrap"><i class="fas fa-hospital"></i></div>
+          <div>
+            <div class="milestone-title">500-Bed Super Specialty Hospital</div>
+            <div class="milestone-desc">Inaugurated in 2023 — serving over 2 lakh patients annually, with advanced
+              cardiac and oncology wings funded from MPLAD.</div>
+          </div>
+        </div>
+        <div class="milestone-card reveal" style="transition-delay:0.08s">
+          <div class="milestone-icon-wrap"><i class="fas fa-book-open"></i></div>
+          <div>
+            <div class="milestone-title">Medhavi Scholarship Yojna</div>
+            <div class="milestone-desc">50,000+ scholarships distributed to meritorious students from Below Poverty Line
+              families since 2015.</div>
+          </div>
+        </div>
+        <div class="milestone-card reveal" style="transition-delay:0.16s">
+          <div class="milestone-icon-wrap"><i class="fas fa-city"></i></div>
+          <div>
+            <div class="milestone-title">Smart City Lucknow Award 2023</div>
+            <div class="milestone-desc">Lucknow ranked #2 in Smart City rankings, backed by infrastructure investments
+              driven by Chauhan's parliamentary advocacy.</div>
+          </div>
+        </div>
+        <div class="milestone-card reveal" style="transition-delay:0.24s">
+          <div class="milestone-icon-wrap"><i class="fas fa-seedling"></i></div>
+          <div>
+            <div class="milestone-title">Harit Lucknow Mission</div>
+            <div class="milestone-desc">5 lakh trees planted in three years; Lucknow's green cover increased by 18% —
+              one of UP's largest urban afforestation drives.</div>
+          </div>
+        </div>
+        <div class="milestone-card reveal" style="transition-delay:0.32s">
+          <div class="milestone-icon-wrap"><i class="fas fa-solar-panel"></i></div>
+          <div>
+            <div class="milestone-title">Solar Village Programme</div>
+            <div class="milestone-desc">40 MW solar energy deployed across 120 villages, bringing 24-hour clean
+              electricity to 1.2 lakh rural households for the first time.</div>
+          </div>
+        </div>
+        <div class="milestone-card reveal" style="transition-delay:0.4s">
+          <div class="milestone-icon-wrap"><i class="fas fa-briefcase"></i></div>
+          <div>
+            <div class="milestone-title">Rozgar Mela — 15,000 Placements</div>
+            <div class="milestone-desc">Annual job fairs matching youth with employers; 15,000 young people placed in
+              formal employment over five consecutive years.</div>
+          </div>
+        </div>
+      </div>
+      <div class="awards-row reveal" style="margin-top:20px">
+        <div class="award-badge"><i class="fas fa-trophy"></i> Best MP Award 2024 — Lokmat</div>
+        <div class="award-badge"><i class="fas fa-medal"></i> Sansad Ratna Award 2023</div>
+        <div class="award-badge"><i class="fas fa-star"></i> Public Service Excellence Award 2022</div>
+        <div class="award-badge"><i class="fas fa-certificate"></i> National Water Mission Commendation</div>
+        <div class="award-badge"><i class="fas fa-crown"></i> Best Constituency Development — IAS Assoc.</div>
+        <div class="award-badge"><i class="fas fa-shield-halved"></i> Governance Champion — Times Now Summit 2023</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWS -->
+  <section id="news">
+    <div class="container">
+      <div class="section-label">News &amp; Media</div>
+      <h2 class="section-title" lang="hi">ज़मीनी स्तर से ताज़ा ख़बरें</h2>
+      <div class="news-controls">
+        <button class="filter-btn active" data-cat="all">All</button>
+        <button class="filter-btn" data-cat="policy">Policy</button>
+        <button class="filter-btn" data-cat="event">Events</button>
+        <button class="filter-btn" data-cat="achievement">Achievements</button>
+        <button class="filter-btn" data-cat="media">Media</button>
+        <div class="news-search">
+          <i class="fas fa-magnifying-glass"></i>
+          <input type="text" placeholder="Search news..." aria-label="Search news">
+        </div>
+      </div>
+      <div class="news-grid">
+        <div class="news-featured reveal">
+          <div class="news-featured-img">
+            <div class="news-img-overlay"><i class="fas fa-landmark"></i></div>
+          </div>
+          <div class="news-featured-body">
+            <span class="news-tag tag-policy">Policy</span>
+            <div class="news-card-title">Chauhan Introduces Landmark Urban Housing Bill in Parliament — 10 Lakh
+              Affordable Homes Pledged</div>
+            <p class="news-card-excerpt">The Urban Affordable Housing Acceleration Bill 2025 proposed by Rajendra Singh
+              Chauhan seeks to expedite construction of 10 lakh EWS housing units across Tier-2 cities in the next three
+              years.</p>
+            <div class="news-card-meta">
+              <i class="fas fa-calendar-alt"></i> June 18, 2025
+              <span>·</span>
+              <i class="fas fa-clock"></i> 5 min read
+            </div>
+            <a href="#" class="read-more">Read Full Story <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="news-card reveal" style="transition-delay:0.1s">
+          <div class="news-card-img">
+            <div class="news-img-overlay"><i class="fas fa-hospital"></i></div>
+          </div>
+          <div class="news-card-body">
+            <span class="news-tag tag-achievement">Achievement</span>
+            <div class="news-card-title">New Trauma Centre Opens in Lucknow North</div>
+            <p class="news-card-excerpt">State-of-the-art 24/7 trauma and emergency facility inaugurated, bringing
+              critical care capacity to the northern district.</p>
+            <div class="news-card-meta"><i class="fas fa-calendar-alt"></i> June 12, 2025</div>
+            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="news-card reveal" style="transition-delay:0.15s">
+          <div class="news-card-img">
+            <div class="news-img-overlay"><i class="fas fa-users"></i></div>
+          </div>
+          <div class="news-card-body">
+            <span class="news-tag tag-event">Event</span>
+            <div class="news-card-title">10,000-Strong Youth Rally Energises Lucknow</div>
+            <p class="news-card-excerpt">A historic gathering of young voters and students at Ambedkar Maidan pledged
+              support for the Digital Youth Vision 2030.</p>
+            <div class="news-card-meta"><i class="fas fa-calendar-alt"></i> June 5, 2025</div>
+            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="news-card reveal" style="transition-delay:0.2s">
+          <div class="news-card-img">
+            <div class="news-img-overlay"><i class="fas fa-newspaper"></i></div>
+          </div>
+          <div class="news-card-body">
+            <span class="news-tag tag-media">Media</span>
+            <div class="news-card-title">Interview: "India's Growth Must Reach the Villages" — Chauhan on NDTV</div>
+            <p class="news-card-excerpt">In a candid interview, Chauhan speaks about his vision for rural transformation
+              and addresses questions on UP's development trajectory.</p>
+            <div class="news-card-meta"><i class="fas fa-calendar-alt"></i> May 28, 2025</div>
+            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="news-card reveal" style="transition-delay:0.25s">
+          <div class="news-card-img">
+            <div class="news-img-overlay"><i class="fas fa-leaf"></i></div>
+          </div>
+          <div class="news-card-body">
+            <span class="news-tag tag-policy">Policy</span>
+            <div class="news-card-title">Gomti Clean River Restoration Phase II Launched</div>
+            <p class="news-card-excerpt">A ₹450-crore comprehensive river restoration project aims to restore Gomti's
+              biodiversity and improve water quality within 18 months.</p>
+            <div class="news-card-meta"><i class="fas fa-calendar-alt"></i> May 20, 2025</div>
+            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery">
+    <div class="container">
+      <div class="section-label">Photo &amp; Video Gallery</div>
+      <h2 class="section-title" lang="hi">जनआंदोलन के<br>अनमोल क्षण</h2>
+      <div class="gallery-controls">
+        <button class="filter-btn active">All Albums</button>
+        <button class="filter-btn">Rallies</button>
+        <button class="filter-btn">Community Visits</button>
+        <button class="filter-btn">Social Programs</button>
+        <button class="filter-btn">Public Meetings</button>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item span-2 reveal"
+          onclick="openLightbox('Grand Rally — Lucknow 2025','A 50,000-strong rally at Ramabai Ambedkar Maidan','fas fa-users')">
+          <div class="gallery-item-bg"></div>
+          <i class="fas fa-users gallery-icon"></i>
+          <div class="gallery-label">Grand Rally · Lucknow 2025</div>
+          <div class="gallery-hover-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="gallery-item reveal" style="transition-delay:0.05s"
+          onclick="openLightbox('School Inauguration','Upgraded Model School in Gomti Nagar','fas fa-school')">
+          <div class="gallery-item-bg"></div>
+          <i class="fas fa-school gallery-icon"></i>
+          <div class="gallery-label">School Inauguration</div>
+          <div class="gallery-hover-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="gallery-item reveal" style="transition-delay:0.1s"
+          onclick="openLightbox('Free Health Camp','Medical camp serving 3,000+ patients','fas fa-heart-pulse')">
+          <div class="gallery-item-bg"></div>
+          <i class="fas fa-heart-pulse gallery-icon"></i>
+          <div class="gallery-label">Free Health Camp</div>
+          <div class="gallery-hover-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="gallery-item span-r2 reveal" style="transition-delay:0.15s"
+          onclick="openLightbox('Women\'s SHG Conclave','12,000 women entrepreneurs gathered in Lucknow','fas fa-venus')">
+          <div class="gallery-item-bg"></div>
+          <i class="fas fa-venus gallery-icon"></i>
+          <div class="gallery-label">Women's SHG Conclave</div>
+          <div class="gallery-hover-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="gallery-item reveal" style="transition-delay:0.2s"
+          onclick="openLightbox('Tree Plantation Drive','Harit Lucknow — 5 lakh trees planted','fas fa-tree')">
+          <div class="gallery-item-bg"></div>
+          <i class="fas fa-tree gallery-icon"></i>
+          <div class="gallery-label">Harit Lucknow Drive</div>
+          <div class="gallery-hover-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="gallery-item reveal" style="transition-delay:0.25s"
+          onclick="openLightbox('Youth Job Fair 2025','15,000 youth placed in formal employment','fas fa-briefcase')">
+          <div class="gallery-item-bg"></div>
+          <i class="fas fa-briefcase gallery-icon"></i>
+          <div class="gallery-label">Rozgar Mela 2025</div>
+          <div class="gallery-hover-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="gallery-item reveal" style="transition-delay:0.3s"
+          onclick="openLightbox('Parliament Session','Presenting the Urban Housing Bill in Lok Sabha','fas fa-landmark')">
+          <div class="gallery-item-bg"></div>
+          <i class="fas fa-landmark gallery-icon"></i>
+          <div class="gallery-label">Parliament Session</div>
+          <div class="gallery-hover-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="gallery-item reveal" style="transition-delay:0.35s"
+          onclick="openLightbox('Solar Village Inauguration','40 MW solar energy powering 120 villages','fas fa-solar-panel')">
+          <div class="gallery-item-bg"></div>
+          <i class="fas fa-solar-panel gallery-icon"></i>
+          <div class="gallery-label">Solar Village Launch</div>
+          <div class="gallery-hover-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+      </div>
+      <div class="video-section">
+        <div class="video-title-row">
+          <h3 style="font-family:var(--ff-display);font-size:1.3rem;font-weight:700;color:var(--navy)">Video Gallery
+          </h3>
+          <a href="#" class="read-more">View All Videos <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="video-grid">
+          <div class="video-card"
+            onclick="openLightbox('Address at Lucknow University','Annual Convocation Address 2025 — Full Speech','fas fa-play')">
+            <div class="video-thumb" style="background:linear-gradient(135deg,#1A3A5C,#0D2137)">
+              <div class="play-btn"><i class="fas fa-play"></i></div>
+            </div>
+            <div class="video-info">
+              <div class="video-info-title">Annual Convocation Address — Lucknow University 2025</div>
+              <div class="video-info-meta"><i class="fas fa-clock"></i> 28 min · 1.2M views</div>
+            </div>
+          </div>
+          <div class="video-card"
+            onclick="openLightbox('NDTV Interview','The future of urban India — Full Interview','fas fa-microphone')">
+            <div class="video-thumb" style="background:linear-gradient(135deg,#0F4C2F,#1A7A4A)">
+              <div class="play-btn"><i class="fas fa-play"></i></div>
+            </div>
+            <div class="video-info">
+              <div class="video-info-title">NDTV Interview: India's Urban Future &amp; Affordable Housing</div>
+              <div class="video-info-meta"><i class="fas fa-clock"></i> 45 min · 870K views</div>
+            </div>
+          </div>
+          <div class="video-card"
+            onclick="openLightbox('Campaign Speech','Main Campaign Address — Lucknow West 2024','fas fa-bullhorn')">
+            <div class="video-thumb" style="background:linear-gradient(135deg,#4A2010,#8B3A1A)">
+              <div class="play-btn"><i class="fas fa-play"></i></div>
+            </div>
+            <div class="video-info">
+              <div class="video-info-title">Campaign Address — Vikas Ki Awaaz, Lucknow Ki Pehchaan</div>
+              <div class="video-info-meta"><i class="fas fa-clock"></i> 1hr 12 min · 3.4M views</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EVENTS -->
+  <section id="events">
+    <div class="container">
+      <div class="section-label">Events &amp; Rallies</div>
+      <h2 class="section-title" lang="hi">आगामी कार्यक्रम</h2>
+      <div class="events-layout">
+        <div>
+          <div class="events-list">
+            <div class="event-card reveal">
+              <div class="event-date-box">
+                <div class="event-day">15</div>
+                <div class="event-month">Jul</div>
+              </div>
+              <div class="event-body">
+                <div class="event-type"><i class="fas fa-bullhorn"></i> Grand Rally</div>
+                <div class="event-name">Vikas Sankalp Mahasabha — Lucknow</div>
+                <div class="event-details">
+                  <span><i class="fas fa-map-marker-alt"></i> Ramabai Ambedkar Maidan</span>
+                  <span><i class="fas fa-clock"></i> 4:00 PM onwards</span>
+                  <span><i class="fas fa-users"></i> 50,000+ expected</span>
+                </div>
+              </div>
+              <div class="event-cta">
+                <button class="event-reg-btn">Register</button>
+              </div>
+            </div>
+            <div class="event-card reveal" style="transition-delay:0.08s">
+              <div class="event-date-box">
+                <div class="event-day">22</div>
+                <div class="event-month">Jul</div>
+              </div>
+              <div class="event-body">
+                <div class="event-type"><i class="fas fa-handshake"></i> Community Visit</div>
+                <div class="event-name">Jan Samvad — Gomti Nagar Ward Meetings</div>
+                <div class="event-details">
+                  <span><i class="fas fa-map-marker-alt"></i> Gomti Nagar Community Hall</span>
+                  <span><i class="fas fa-clock"></i> 10:00 AM – 2:00 PM</span>
+                  <span><i class="fas fa-users"></i> Open for residents</span>
+                </div>
+              </div>
+              <div class="event-cta">
+                <button class="event-reg-btn">Register</button>
+              </div>
+            </div>
+            <div class="event-card reveal" style="transition-delay:0.16s">
+              <div class="event-date-box">
+                <div class="event-day">5</div>
+                <div class="event-month">Aug</div>
+              </div>
+              <div class="event-body">
+                <div class="event-type"><i class="fas fa-graduation-cap"></i> Social Program</div>
+                <div class="event-name">Medhavi Scholarship Award Ceremony 2025</div>
+                <div class="event-details">
+                  <span><i class="fas fa-map-marker-alt"></i> Raj Bhavan Convention Centre</span>
+                  <span><i class="fas fa-clock"></i> 11:00 AM</span>
+                  <span><i class="fas fa-users"></i> 2,000 awardees &amp; families</span>
+                </div>
+              </div>
+              <div class="event-cta">
+                <button class="event-reg-btn">Register</button>
+              </div>
+            </div>
+            <div class="event-card reveal" style="transition-delay:0.24s">
+              <div class="event-date-box">
+                <div class="event-day">18</div>
+                <div class="event-month">Aug</div>
+              </div>
+              <div class="event-body">
+                <div class="event-type"><i class="fas fa-briefcase"></i> Youth Event</div>
+                <div class="event-name">Rozgar Mela — Annual Job Fair &amp; Skill Showcase</div>
+                <div class="event-details">
+                  <span><i class="fas fa-map-marker-alt"></i> Indira Gandhi Pratishthan</span>
+                  <span><i class="fas fa-clock"></i> 9:00 AM – 5:00 PM</span>
+                  <span><i class="fas fa-users"></i> 300+ companies participating</span>
+                </div>
+              </div>
+              <div class="event-cta">
+                <button class="event-reg-btn">Register</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="events-sidebar">
+          <div class="mini-calendar reveal">
+            <div class="cal-header">
+              <div class="cal-month">July 2025</div>
+              <div class="cal-nav">
+                <button>‹</button>
+                <button>›</button>
+              </div>
+            </div>
+            <div class="cal-grid">
+              <div class="cal-day-name">Su</div>
+              <div class="cal-day-name">Mo</div>
+              <div class="cal-day-name">Tu</div>
+              <div class="cal-day-name">We</div>
+              <div class="cal-day-name">Th</div>
+              <div class="cal-day-name">Fr</div>
+              <div class="cal-day-name">Sa</div>
+              <div class="cal-day"></div>
+              <div class="cal-day">1</div>
+              <div class="cal-day">2</div>
+              <div class="cal-day">3</div>
+              <div class="cal-day">4</div>
+              <div class="cal-day">5</div>
+              <div class="cal-day">6</div>
+              <div class="cal-day">7</div>
+              <div class="cal-day">8</div>
+              <div class="cal-day">9</div>
+              <div class="cal-day">10</div>
+              <div class="cal-day">11</div>
+              <div class="cal-day">12</div>
+              <div class="cal-day">13</div>
+              <div class="cal-day">14</div>
+              <div class="cal-day event-day">15</div>
+              <div class="cal-day">16</div>
+              <div class="cal-day">17</div>
+              <div class="cal-day">18</div>
+              <div class="cal-day">19</div>
+              <div class="cal-day">20</div>
+              <div class="cal-day event-day">22</div>
+              <div class="cal-day">23</div>
+              <div class="cal-day today">24</div>
+              <div class="cal-day">25</div>
+              <div class="cal-day">26</div>
+              <div class="cal-day">27</div>
+              <div class="cal-day">28</div>
+              <div class="cal-day">29</div>
+              <div class="cal-day">30</div>
+              <div class="cal-day">31</div>
+            </div>
+          </div>
+          <div class="past-events reveal">
+            <div class="past-events-title">Recent Highlights</div>
+            <div class="past-event-item">
+              <div class="past-event-dot"></div>
+              <div>
+                <div class="past-event-name">Hospital Inauguration — Lucknow North</div>
+                <div class="past-event-date">June 10, 2025</div>
+              </div>
+            </div>
+            <div class="past-event-item">
+              <div class="past-event-dot"></div>
+              <div>
+                <div class="past-event-name">Youth Conference — IIT Lucknow</div>
+                <div class="past-event-date">May 25, 2025</div>
+              </div>
+            </div>
+            <div class="past-event-item">
+              <div class="past-event-dot"></div>
+              <div>
+                <div class="past-event-name">Women's Day SHG Felicitation</div>
+                <div class="past-event-date">March 8, 2025</div>
+              </div>
+            </div>
+            <div class="past-event-item">
+              <div class="past-event-dot"></div>
+              <div>
+                <div class="past-event-name">Harit Lucknow Tree Drive</div>
+                <div class="past-event-date">February 14, 2025</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section id="testimonials">
+    <div class="container">
+      <div class="testimonials-header">
+        <div class="section-label">Testimonials</div>
+        <h2 class="section-title" lang="hi">जनता की आवाज़</h2>
+        <p class="section-subtitle">The true measure of leadership — what the people say when they speak from the heart.
+        </p>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card reveal">
+          <div class="testimonial-stars">★★★★★</div>
+          <span class="testimonial-quote">"</span>
+          <p class="testimonial-text">My daughter received a scholarship under the Medhavi Yojna and is now studying
+            engineering at a top college. Before this, we had no hope. Rajendra ji made it possible — he changed our
+            family's fate forever.</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">RD</div>
+            <div>
+              <div class="author-name">Ramesh Devi</div>
+              <div class="author-role">Farmer, Pratapgarh District</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card reveal" style="transition-delay:0.1s">
+          <div class="testimonial-stars">★★★★★</div>
+          <span class="testimonial-quote">"</span>
+          <p class="testimonial-text">Our village had no road for 40 years. Within one year of Chauhan ji becoming our
+            MP, we had a paved road, a school building, and a primary health centre. This is the change we voted for.
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">SK</div>
+            <div>
+              <div class="author-name">Suresh Kumar</div>
+              <div class="author-role">Village Pradhan, Itaunja Block</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card reveal" style="transition-delay:0.2s">
+          <div class="testimonial-stars">★★★★★</div>
+          <span class="testimonial-quote">"</span>
+          <p class="testimonial-text">I am a small entrepreneur. The women's skill centre trained me in garment
+            stitching, and the SHG gave me a loan of ₹50,000. Today I run a unit employing 12 women. I owe this life to
+            the programme he built.</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">PP</div>
+            <div>
+              <div class="author-name">Poonam Pandey</div>
+              <div class="author-role">Entrepreneur, Rae Bareli Road</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card reveal" style="transition-delay:0.3s">
+          <div class="testimonial-stars">★★★★★</div>
+          <span class="testimonial-quote">"</span>
+          <p class="testimonial-text">As a doctor at the newly built hospital, I can say this facility is world-class.
+            The equipment, the capacity, the staff — this is what public healthcare in India should look like
+            everywhere. Chauhan ji made it real here.</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">DM</div>
+            <div>
+              <div class="author-name">Dr. Meena Srivastava</div>
+              <div class="author-role">Senior Physician, Lucknow North Hospital</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card reveal" style="transition-delay:0.4s">
+          <div class="testimonial-stars">★★★★★</div>
+          <span class="testimonial-quote">"</span>
+          <p class="testimonial-text">He attended our street meeting personally, listened to every complaint about
+            drainage and streetlights, and within three months everything was fixed. You rarely see an MP who actually
+            shows up and follows through.</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">AV</div>
+            <div>
+              <div class="author-name">Anjali Verma</div>
+              <div class="author-role">Resident Welfare Association, Vikas Nagar</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card reveal" style="transition-delay:0.5s">
+          <div class="testimonial-stars">★★★★★</div>
+          <span class="testimonial-quote">"</span>
+          <p class="testimonial-text">The solar project transformed our village. We hadn't had reliable electricity in
+            30 years. Children can study at night. Women feel safer. Our farmer's pump runs on clean energy. This is
+            true development.</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">BL</div>
+            <div>
+              <div class="author-name">Brijlal Yadav</div>
+              <div class="author-role">Farmer &amp; Social Worker, Bakshi Ka Talab</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GET INVOLVED -->
+  <section id="getinvolved">
+    <div class="container">
+      <div class="section-label">Get Involved</div>
+      <h2 class="section-title" lang="hi">श्रेष्ठ भारत के निर्माण में<br>सहभागी बनें</h2>
+      <p class="section-subtitle" style="margin-bottom:48px">Your energy, your ideas, your commitment — together we
+        build the nation we deserve.</p>
+      <div class="involved-grid">
+        <div class="form-card reveal-left">
+          <div class="form-card-title">Volunteer Registration</div>
+          <div class="form-card-subtitle">Join thousands of dedicated citizens driving change in their communities.
+            Every contribution — big or small — matters.</div>
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">First Name</label>
+              <input type="text" class="form-input" placeholder="Rahul">
+            </div>
+            <div class="form-group">
+              <label class="form-label">Last Name</label>
+              <input type="text" class="form-input" placeholder="Sharma">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Mobile Number</label>
+            <input type="tel" class="form-input" placeholder="+91 98765 43210">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Email Address</label>
+            <input type="email" class="form-input" placeholder="rahul@example.com">
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">District</label>
+              <select class="form-select">
+                <option>Lucknow</option>
+                <option>Pratapgarh</option>
+                <option>Rae Bareli</option>
+                <option>Unnao</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Area of Interest</label>
+              <select class="form-select">
+                <option>Event Management</option>
+                <option>Outreach &amp; Campaign</option>
+                <option>Education Programs</option>
+                <option>Healthcare Drives</option>
+                <option>Social Media</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Why do you want to volunteer?</label>
+            <textarea class="form-textarea" placeholder="Share your motivation..."></textarea>
+          </div>
+          <button class="form-submit" onclick="handleFormSubmit(this,'volunteer')">
+            <i class="fas fa-handshake-angle"></i> Join as Volunteer
+          </button>
+          <div class="volunteer-perks">
+            <div class="perk-item">
+              <div class="perk-icon"><i class="fas fa-certificate"></i></div>
+              <div>
+                <div class="perk-title">Official Volunteer Certificate</div>
+                <div class="perk-desc">Receive a nationally recognized participation certificate after completing 20
+                  hours of service.</div>
+              </div>
+            </div>
+            <div class="perk-item">
+              <div class="perk-icon"><i class="fas fa-network-wired"></i></div>
+              <div>
+                <div class="perk-title">Leadership Network Access</div>
+                <div class="perk-desc">Connect with policymakers, NGO leaders, and community organizers across Uttar
+                  Pradesh.</div>
+              </div>
+            </div>
+            <div class="perk-item">
+              <div class="perk-icon"><i class="fas fa-award"></i></div>
+              <div>
+                <div class="perk-title">Annual Seva Samman Award</div>
+                <div class="perk-desc">Top volunteers are recognized at the annual public felicitation ceremony.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="reveal-right">
+          <div class="form-card" style="margin-bottom:24px">
+            <div class="form-card-title">Contact Us</div>
+            <div class="form-card-subtitle">For press inquiries, official matters, or citizen grievances — we respond to
+              every message within 48 hours.</div>
+            <div class="form-group">
+              <label class="form-label">Full Name</label>
+              <input type="text" class="form-input" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+              <label class="form-label">Email or Phone</label>
+              <input type="text" class="form-input" placeholder="email@example.com or 98765-XXXXX">
+            </div>
+            <div class="form-group">
+              <label class="form-label">Subject</label>
+              <select class="form-select">
+                <option>General Inquiry</option>
+                <option>Press / Media</option>
+                <option>Citizen Grievance</option>
+                <option>Official Correspondence</option>
+                <option>Partnership / NGO</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Message</label>
+              <textarea class="form-textarea" placeholder="Your message here..."></textarea>
+            </div>
+            <button class="form-submit" onclick="handleFormSubmit(this,'contact')">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+          </div>
+          <div class="form-card" style="background:linear-gradient(135deg,var(--navy),#1A4A74);border:none">
+            <div
+              style="font-family:var(--ff-display);font-size:1.1rem;font-weight:700;color:var(--white);margin-bottom:16px">
+              Membership Signup</div>
+            <p style="font-size:0.85rem;color:rgba(255,255,255,0.65);line-height:1.7;margin-bottom:20px">Become an
+              official member of the Rashtriya Vikas Dal. Members receive exclusive updates, early event access, and a
+              voice in the party's grassroots programs.</p>
+            <div class="form-group">
+              <label class="form-label" style="color:rgba(255,255,255,0.7)">Full Name</label>
+              <input type="text" class="form-input" placeholder="Your full name"
+                style="background:rgba(255,255,255,0.08);border-color:rgba(255,255,255,0.15);color:var(--white)">
+            </div>
+            <div class="form-group">
+              <label class="form-label" style="color:rgba(255,255,255,0.7)">Mobile</label>
+              <input type="tel" class="form-input" placeholder="+91 XXXXX XXXXX"
+                style="background:rgba(255,255,255,0.08);border-color:rgba(255,255,255,0.15);color:var(--white)">
+            </div>
+            <button class="form-submit" style="background:var(--saffron)" onclick="handleFormSubmit(this,'member')">
+              <i class="fas fa-id-card"></i> Become a Member
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="nav-logo" style="margin-bottom:16px">
+            <div class="nav-logo-icon">AP</div>
+            <div>
+              <div class="nav-logo-text">Ajay Prakash Pathak</div>
+              <div class="nav-logo-sub">Member of Parliament</div>
+            </div>
+          </div>
+          <p>Dedicated to transparent governance, inclusive development, and the upliftment of every citizen. Building
+            an India where development reaches the last mile.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" aria-label="Telegram"><i class="fab fa-telegram-plane"></i></a>
+          </div>
+          <div style="margin-top:20px">
+            <div class="footer-col-title">Newsletter</div>
+            <p style="font-size:0.8rem;color:rgba(255,255,255,0.45);margin-bottom:8px">Stay updated with latest news and
+              announcements.</p>
+            <div class="newsletter-form">
+              <input type="email" placeholder="your@email.com" aria-label="Email for newsletter">
+              <button>Subscribe</button>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="footer-col-title">Quick Links</div>
+          <div class="footer-links">
+            <a href="#hero">Home</a>
+            <a href="#about">About Rajendra ji</a>
+            <a href="#initiatives">Key Initiatives</a>
+            <a href="#achievements">Achievements</a>
+            <a href="#news">News &amp; Media</a>
+            <a href="#gallery">Photo &amp; Video</a>
+            <a href="#events">Events &amp; Rallies</a>
+            <a href="#getinvolved">Get Involved</a>
+          </div>
+        </div>
+        <div>
+          <div class="footer-col-title">Initiatives</div>
+          <div class="footer-links">
+            <a href="#">Education &amp; Literacy</a>
+            <a href="#">Healthcare Access</a>
+            <a href="#">Infrastructure</a>
+            <a href="#">Women Empowerment</a>
+            <a href="#">Youth Development</a>
+            <a href="#">Environmental Programs</a>
+            <a href="#">Smart City Mission</a>
+            <a href="#">Solar Village Program</a>
+          </div>
+        </div>
+        <div>
+          <div class="footer-col-title">Office Address</div>
+          <div class="footer-contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Constituency Office: 14 Hazratganj Road, Lucknow — 226001, Uttar Pradesh</span>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fas fa-building"></i>
+            <span>Delhi Office: Room No. 142, Parliament House Annexe, New Delhi — 110001</span>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fas fa-phone"></i>
+            <span>+91 522 266 1234 (Lucknow)<br>+91 11 2300 5678 (Delhi)</span>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fas fa-envelope"></i>
+            <span>info@rajendrachauhan.in<br>grievance@rajendrachauhan.in</span>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fas fa-clock"></i>
+            <span>Jan Sunwai: Every Monday, 10AM–1PM</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 Ajay Prakash Pathak. All rights reserved. | Paid for by the Official Campaign Committee</span>
+        <div style="display:flex;gap:16px">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Use</a>
+          <a href="#">Disclaimer</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-tricolor"><span></span><span></span><span></span></div>
+  </footer>
+
+  <!-- BACK TO TOP -->
+  <button id="back-to-top" aria-label="Back to top" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
