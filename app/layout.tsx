@@ -4,7 +4,7 @@ import Script from 'next/script';
 import './globals.css';
 
 export const metadata = {
-  title: "Rajendra Singh Chauhan",
+  title: "Ajay Prakash Pathak - Member of Parliament, Uttar Pradesh",
   description: "Serving the Nation, Shaping Tomorrow"
 };
 
@@ -46,9 +46,9 @@ export default function RootLayout({
         <nav id="navbar">
           <div className="nav-inner">
             <Link href="/" className="nav-logo">
-              <div className="nav-logo-icon">RC</div>
+              <div className="nav-logo-icon">AP</div>
               <div>
-                <div className="nav-logo-text">Rajendra Singh Chauhan</div>
+                <div className="nav-logo-text">Ajay Prakash Pathak</div>
                 <div className="nav-logo-sub">Member of Parliament · Uttar Pradesh</div>
               </div>
             </Link>
@@ -77,9 +77,9 @@ export default function RootLayout({
     <div class="footer-grid">
       <div class="footer-brand">
         <div class="nav-logo" style="margin-bottom:16px">
-          <div class="nav-logo-icon">RC</div>
+          <div class="nav-logo-icon">AP</div>
           <div>
-            <div class="nav-logo-text">Rajendra Singh Chauhan</div>
+            <div class="nav-logo-text">Ajay Prakash Pathak</div>
             <div class="nav-logo-sub">Member of Parliament</div>
           </div>
         </div>
@@ -105,7 +105,7 @@ export default function RootLayout({
         <div class="footer-col-title">Quick Links</div>
         <div class="footer-links">
           <a href="#hero">Home</a>
-          <a href="#about">About Rajendra ji</a>
+          <a href="#about">About Ajay Prakash Pathak</a>
           <a href="#initiatives">Key Initiatives</a>
           <a href="#achievements">Achievements</a>
           <a href="#news">News &amp; Media</a>
